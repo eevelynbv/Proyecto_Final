@@ -1,0 +1,270 @@
+
+
+
+.Ingresar{
+
+                background: #DD4F24;
+				border-radius: 5px;
+				color:white;
+				font-style: italic;
+				float: right;
+				margin:0 0.5em 1em 0;
+				padding:0.3em 0.5em;				
+				text-decoration: none;
+				text-shadow: 1px 1px black;
+
+}
+
+header{
+	background: #1979E5;
+	height: 150px;
+	box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+	overflow: hidden;
+	position: relative;
+	z-index:1;
+}
+
+.img1{
+					width: 150px;
+					border-radius: 50%;
+					background-size: center;
+					position: absolute;
+					-webkit-animation: anim2 ease-in-out 5s infinite alternate; }
+@-webkit-keyframes anim2
+					{
+					   from {left: 0px;   -webkit-transform: scale(1.0) rotate(0deg)   }
+					   30%  {left: 350px; -webkit-transform: scale(1.8) rotate(10deg)  }
+					   to   {left: 800px; -webkit-transform: scale(1.2) rotate(-20deg) }
+					}
+	}
+
+.titular-Icono{
+	width: 50px;
+	height: 50px;
+	
+	margin: 0 1.5em 0 0;
+	z-index: 2;
+	position: absolute;
+	top:10px;
+	right: 0;
+
+}
+
+nav ul {
+	list-style: none; overflow: hidden; position: relative;
+}
+nav ul li {
+	float: left; margin: 0 20px 0 0;
+}
+nav ul li a {
+	display: block; width: 120px; height: 120px;
+
+	background-repeat: no-repeat;
+}
+nav ul li:nth-child(1) a {
+
+}
+
+nav ul li:nth-child(2) a {
+
+}
+nav ul li:nth-child(3) a {
+
+}
+nav ul li:nth-child(4) a {
+
+}
+
+nav ul li a span {
+	font: 50px "Dosis", sans-serif; 
+	text-transform: uppercase; 
+	position: absolute; 
+	left: 580px;
+	top: 29px;
+	display: none;
+}
+nav ul li a:hover span {
+	display: block;
+}
+
+nav ul li:nth-child(1) a span {
+	color: #5bb2fc;
+}
+nav ul li:nth-child(2) a span {
+	color: #58ebd3;
+}
+nav ul li:nth-child(3) a span {
+	color: #ffa659;
+}
+nav ul li:nth-child(4) a span {
+	color: #ff7a85;
+}
+
+body{
+	background-color: #313144;
+
+}
+
+
+
+.Consulta_afi{
+
+	background-color: #5bb2fc;
+	background-position: 28px 28px;
+	background-image: url("../images/busqueda_afi.png");
+	background-size: 70px;
+	background-repeat: no-repeat;
+}
+
+.Formulario_afi{
+
+	background-color: #58ebd3;
+	background-position: center;
+	background-image: url("../images/form-icon.png");
+	background-size: 80px;
+	background-repeat: no-repeat;
+}
+.Visita_asesor{
+
+	background-color: #ffa659;
+	background-position: center;
+	background-image: url("../images/icono-asesor2.png");
+	background-size: 70px;
+	background-repeat: no-repeat;
+}
+
+.Contactenos{
+	background-color: #ff7a85;
+	background-position: center;
+	background-image: url("../images/icono-contacto.png");
+	background-size: 70px;
+	background-repeat: no-repeat;
+}
+
+
+.titular{
+
+	margin-top: center;
+	text-align: center;
+	color:  #FBFBEF;
+
+
+}
+
+
+
+.titulo-pagina{
+
+				font-size: 20px;
+				margin-top: center;
+				text-align: center;
+				color: #045FB4;
+
+}
+
+
+.pie{
+			font-size: 16px;
+			font-family:monospace;
+			position: static;
+			background: #A4A4A4;
+			color: black;
+			text-align:center;
+			width: 100%;
+			margin:0px;
+			padding: .10em 0;
+			display: inline-block;
+
+
+			}
+
+
+
+
+
+/* Marcadores Sociales */
+#marcadores{
+margin: 20px auto 0;
+padding: 0 0 0 0;
+width: 240px;
+height: 120px;
+top:10px;
+}
+#marcadores li {
+
+list-style: none; overflow: hidden; position: relative;
+margin : 0;
+padding: 0;
+float: left;
+}
+#marcadores li a{
+background: url(http://4.bp.blogspot.com/-063Xsp75qOY/TbeA0johGtI/AAAAAAAAFvY/UYDlwDYKEU4/s1600/marcadores-tuto3.png) no-repeat 0 0;
+margin: 0;
+padding: 0;
+display: block;
+width:  60px; /*El ancho del bloque con el icono*/
+height:  60px; /*El alto del bloque con el icono*/
+}
+#marcadores li a.rss{
+background-position: 0 0; /*posición del icono del feed o RSS*/
+}
+#marcadores li a.twitter{
+background-position: -60px 0; /*posición del icono de Twitter*/
+}
+#marcadores li a.facebook {
+background-position: -120px 0; /*posición del icono de Facebook*/
+}
+#marcadores li a.youtube {
+background-position: -180px 0; /*posición del icono de Youtube*/
+}
+#marcadores li a.rss:hover{
+background-position: 0 -60px; /*posición del ícono del Feed del efecto hover*/
+}
+#marcadores li a.twitter:hover{
+background-position: -60px -60px; /*posición del icono de Twitter del efecto hover*/
+}
+#marcadores li a.facebook:hover {
+background-position: -120px -60px; /*posición del icono de facebook del efecto hover*/
+}
+#marcadores li a.youtube:hover {
+background-position: -180px -60px; /*posición del icono de youtube del efecto hover*/
+}
+#marcadores li a.telefono:hover {
+background-position: -180px -60px; /*posición del icono de youtube del efecto hover*/
+
+}
+
+.img2{
+					width: 50px;
+					border-radius: 50%;
+					background-size: center;
+					position: fixed;
+					
+}
+
+
+
+.img3{
+					width: 250px;
+					border-radius: 10%;
+					background-size: center;
+					float: right;
+					
+}
+
+
+
+.formulario{
+	position:static;
+	text-align: center;
+	display: inline-block;
+}
+
+
+.formulario_1{
+	position:  relative;
+	text-align: center;
+	display: inline-block;
+	float: none;
+	padding: .10em 0;
+}
